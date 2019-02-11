@@ -1,10 +1,80 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "hello Ticketbis!!!"
+      "type": "buyer",
+      "firstname": "paco",
+      "lastname": "porras"
+    },
+    {
+      "id": 2,
+      "type": "seller",
+      "firstname": "pepe",
+      "lastname": "marismeño"
+    },
+    {
+      "id": 3,
+      "type": "buyer",
+      "firstname": "maría",
+      "lastname": "del monte"
+    },
+    {
+      "id": 4,
+      "type": "seller",
+      "firstname": "patricia",
+      "lastname": "botín"
     }
   ],
+
+  "groups": [
+    {
+      "id": 1,
+      "name": "sports"
+    },
+    {
+      "id": 2,
+      "name": "concerts"
+    }
+  ],
+
+  "performers": [
+    {
+      "id": 1,
+      "group": 1,
+      "name": "New England Patriots"
+    },
+    {
+      "id": 2,
+      "group": 1,
+      "name": "Toronto Raptors"
+    },
+    {
+      "id": 3,
+      "group": 1,
+      "name": "Pittsburgh Penguins"
+    },
+    {
+      "id": 4,
+      "group": 1,
+      "name": "Mike Tyson"
+    },
+    {
+      "id": 5,
+      "group": 2,
+      "name": "Maroon 5"
+    },
+    {
+      "id": 6,
+      "group": 2,
+      "name": "Metallica"
+    },
+    {
+      "id": 7,
+      "group": 2,
+      "name": "Shakira"
+    }
+  ],
+  
   "profile": {
     "name": "typicode"
   }
